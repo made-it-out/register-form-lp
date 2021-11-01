@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon</title>
+    <g id="Reigstration-&amp;-Client-Onboarding-DI:4-(DS-117)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Client-Registration-Tablet-API-V2" transform="translate(-423.000000, -192.000000)">
+            <g id="api__stepper" transform="translate(104.000000, 92.000000)">
+                <g id="Buttons-/-Show-More-/-Primary" transform="translate(234.000000, 90.000000)">
+                    <g id="Icon" transform="translate(85.000000, 8.000000)">
+                        <path d="M1.45774902,2.18199123 C1.19007017,1.92918343 0.768132369,1.94123879 0.515324565,2.20891764 C0.270943688,2.46767387 0.274062728,2.87057651 0.516335513,3.12550953 L0.542250978,3.1513421 L3.54225098,5.98467544 C3.79032016,6.218963 4.17329295,6.22704188 4.43066584,6.00891208 L4.45774902,5.98467544 L7.45774902,3.1513421 C7.72542787,2.8985343 7.73748324,2.4765965 7.48467544,2.20891764 C7.24029456,1.95016142 6.83787109,1.93027114 6.56952108,2.15759299 L6.54225098,2.18199123 L4,4.58283333 L1.45774902,2.18199123 Z" id="icon" fill="#0099FF"></path>
+                        <rect id="container" x="0" y="0" width="8" height="8"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

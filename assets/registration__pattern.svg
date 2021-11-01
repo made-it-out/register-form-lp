@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1280px" height="855px" viewBox="0 0 1280 855" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>registration__pattern</title>
+    <g id="Reigstration-&amp;-Client-Onboarding-DI:4-(DS-117)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Client-Registration-API-V2---Filled" transform="translate(0.000000, -74.000000)">
+            <g id="registration__pattern" transform="translate(0.000000, 74.000000)">
+                <rect id="background" fill="#1B49BA" x="0" y="0" width="1280" height="855"></rect>
+                <path d="M608,0 L608,608 L0,608 L0.081454629,597.945608 C5.45057527,266.793876 275.568763,0 608,0 Z" id="circle__quarter--blue" fill="#0099FF" transform="translate(304.000000, 304.000000) scale(-1, -1) translate(-304.000000, -304.000000) "></path>
+                <path d="M1280,247 L1280,503 L1024,503 L1024.0343,498.766572 C1026.29498,359.334263 1140.02895,247 1280,247 Z" id="circle__quarter--darkblue" fill="#1B49BA"></path>
+                <path d="M672,247 C1004.43124,247 1274.54942,513.793876 1279.91855,844.945608 L1280,855 L672,855 L672,247 Z" id="circle__quarter--yellow" fill="#FFDA55" transform="translate(976.000000, 551.000000) scale(-1, 1) translate(-976.000000, -551.000000) "></path>
+                <path d="M1104,0 L1104,208 L896,208 L896.027866,204.56034 C897.86467,91.2715891 990.273524,0 1104,0 Z" id="circle__quarter--pink" fill="#F9B8C4"></path>
+                <circle id="circle--green" fill="#37B348" cx="810" cy="104" r="104"></circle>
+                <circle id="circle--yellow" fill="#0099FF" cx="512" cy="775" r="64"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

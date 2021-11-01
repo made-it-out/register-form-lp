@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon</title>
+    <g id="Reigstration-&amp;-Client-Onboarding-DI:4-(DS-117)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Client-Registration-API-V2---Filled" transform="translate(-466.000000, -733.000000)">
+            <g id="registration" transform="translate(132.000000, 114.000000)">
+                <g id="Buttons-/-Circle-/-Green" transform="translate(328.000000, 612.000000)">
+                    <g id="Icon" transform="translate(6.000000, 6.000000)">
+                        <path d="M9.72727375,1.86526058 C10.0778306,1.43849565 10.7079745,1.37671684 11.1347394,1.72727375 C11.5472789,2.06614542 11.618759,2.66627556 11.3064092,3.09140289 L11.2727263,3.13473942 L5.52272625,10.1347394 C5.15477601,10.5826788 4.4880699,10.6225256 4.06940324,10.232708 L4.02967979,10.1936417 L0.779679787,6.81864169 C0.396592061,6.42081982 0.408536444,5.78776751 0.806358313,5.40467979 C1.19091945,5.03436165 1.79529037,5.03317908 2.1811962,5.39286272 L2.22032021,5.43135831 L4.69075,7.99675 L9.72727375,1.86526058 Z" id="icon" fill="#0099FF"></path>
+                        <rect id="container" x="0" y="0" width="12" height="12"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
