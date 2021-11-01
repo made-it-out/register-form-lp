@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/logo_icon.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -12,7 +13,7 @@
         integrity="sha512-q0LpKnEKG/pAf1qi1SAyX0lCNnrlJDjAvsyaygu07x8OF4CEOpQhBnYiFW6YDUnOOcyAEiEYlV4S9vEc6akTEw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/assets/main.css">
-    <title>Register Form</title>
+    <title>Overpass Register Form</title>
 </head>
 
 <body>
@@ -333,7 +334,63 @@
             </g>
         </g>
     </svg>
-    <script src="/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', init);
+
+        function init() {
+            const steps = document.querySelector('.steps');
+            const stepsToggleBtn = document.querySelector('.steps__toggle');
+            const stepsToggleText = document.querySelector('.toggle__text');
+            const formInputs = Array.from(document.querySelectorAll('.field__input'));
+            const promoIcon = document.querySelector('.field__promo-icon');
+            const nextBtn = document.getElementById('next-button');
+
+            let stepsShown = false;
+
+            // Toggle Steps
+            stepsToggleBtn.addEventListener('click', toggleSteps);
+            stepsToggleBtn.addEventListener('keydown', (e) => {
+                if (e.keyCode === 13 || e.keyCode === 32) {
+                    toggleSteps;
+                }
+            });
+
+            function toggleSteps() {
+                if (stepsShown) {
+                    steps.classList.add('steps--closed');
+                    stepsToggleText.textContent = 'Show More';
+                    stepsShown = false;
+                }
+                else {
+                    steps.classList.remove('steps--closed');
+                    stepsToggleText.textContent = 'Show Less';
+                    stepsShown = true;
+                }
+            }
+
+            // Event listeners for inputs
+            formInputs.forEach(input => {
+                input.addEventListener('input', checkForm)
+            })
+
+            function checkForm() {
+                let completed = formInputs.every(input => {
+                    return input.value.length > 0
+                })
+
+                if (completed) {
+                    promoIcon.classList.add('field__promo-icon--active');
+                    nextBtn.classList.add('form__button--active');
+                    nextBtn.classList.remove('form__button--disabled');
+                }
+                else {
+                    promoIcon.classList.remove('field__promo-icon--active');
+                    nextBtn.classList.remove('form__button--active');
+                    nextBtn.classList.add('form__button--disabled');
+                }
+            }
+        }
+    </script>
 </body>
 
 </html>
